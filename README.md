@@ -3,6 +3,7 @@
 - Twitter account
 - Twitter API credentials
 - Google Cloud account
+- gcloud CLI
 
 # How it works
 
@@ -33,6 +34,8 @@ Create your api key : https://developer.twitter.com/en/docs/twitter-api/getting-
 > Save download key into `server` folder as `googleKeys.json`
 
 # Setup infra
+
+(Need to be log to gcloud)
 
 `infra/provider.ts` : define project value to `${projectName}`
 
